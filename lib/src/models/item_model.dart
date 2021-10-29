@@ -17,7 +17,7 @@ class ItemModel {
     _results = temp;
   }
   //saving the result in the list and also getting the lists in the new array format
-  
+
   List<_Result> get results => _results;
 
   int get total_pages => _total_pages;
@@ -89,4 +89,11 @@ class _Result {
   int get id => _id;
 
   int get vote_count => _vote_count;
+
+
+  double get vote_average_2 => _vote_average_2;
+  
+  double get vote_average_3 => _vote_average_3;
+
 }
+
