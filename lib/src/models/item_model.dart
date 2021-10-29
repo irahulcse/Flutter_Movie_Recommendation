@@ -16,7 +16,8 @@ class ItemModel {
     }
     _results = temp;
   }
-
+  //saving the result in the list and also getting the lists in the new array format
+  
   List<_Result> get results => _results;
 
   int get total_pages => _total_pages;
